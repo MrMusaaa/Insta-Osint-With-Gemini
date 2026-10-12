@@ -1,0 +1,6 @@
+{
+  "name": "Instagram Public Index OSINT",
+  "description": "Python 3.10+ CLI aracı ve OSINT analiz platformu. Google Arama indeksi üzerindeki Instagram snippet'lerini toplar, tekilleştirir ve Gemini 3.8 Flash ile metin/üslup analizi sunar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

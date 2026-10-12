@@ -1,0 +1,73 @@
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+
+# Build and production output
+dist/
+build/
+out/
+coverage/
+
+# Environment and sensitive credentials (ASLA GITHUB'A YÜKLENMEZ)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
+*.crt
+
+# API Sessions & Credentials
+*.session
+*.sessionid
+*session*
+instaloader*
+
+# User-specific generated data, outputs & exports
+osint_output/
+osint_data/
+downloads/
+*.csv
+*.xlsx
+
+# User uploads and avatar cache
+public/avatar_*
+public/*_profile_pic.*
+*.tmp
+
+# Python artifacts and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.cache/
+*.egg-info/
+.eggs/
+
+# Logs and databases
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating System & IDE files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

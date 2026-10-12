@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Completely suppress Google CSE overlay / modal dialog from taking over the viewport */
+.gsc-modal-background-image,
+.gsc-modal-background-image-visible,
+.gsc-results-wrapper-overlay,
+.gsc-results-wrapper-overlay-visible,
+.gsc-overflow-hidden-overlay,
+.gsc-overlay-background,
+.gsc-overlay,
+div.gsc-modal-background-image,
+div.gsc-results-wrapper-overlay {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -99999 !important;
+  position: fixed !important;
+  top: -99999px !important;
+  left: -99999px !important;
+  width: 0 !important;
+  height: 0 !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+}
+
+body.gsc-overflow-hidden {
+  overflow: auto !important;
+  position: static !important;
+}
